@@ -108,9 +108,9 @@ analytics:
 author:
   name             : "Alex Yukhananov"
   avatar           : "/images/bio.jpg"
-  bio              : 
+  bio              :
   location         : "Denver, CO"
-  email            : 
+  email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -299,8 +299,8 @@ defaults:
 
   # _pages
   - scope:
-    path: ""
-    type: pages
-  values:
-    layout: single
-    author_profile: true
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
