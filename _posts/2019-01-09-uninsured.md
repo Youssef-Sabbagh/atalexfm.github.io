@@ -36,7 +36,7 @@ This project investigated the relationship between poverty and health insurance 
 
 ### Linear Regression in R
 
-``` 
+```r
 # Reads the hc_uninsured_dataset and runs a multiple linear regression
 
 # Attaches hc_uninsured_datset 
