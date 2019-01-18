@@ -1,9 +1,10 @@
 ---
 title: "Uninsured Americans and Poverty"
 date: 2019-01-09
-tags: [data science, statistical analysis, linear regression]
+categories: [data science]
+tags: [economics, statistical analysis, multiple linear regression, project]
 header:
-    image: "/images/lights.JPG"
+    image: "/images/uninsured/uninsured_header.jpg"
 excerpt: "Data Science, Poverty, Uninsured Rates" 
 ---
 
@@ -32,9 +33,57 @@ In the scope of the model as it directly pertains to the data, I examined the ad
 
 * Graph 1.1: Plot of residual values vs. fitted values
 
-This project investigated the relationship between poverty and health insurance and after conducting this experiment, it clarified the relationship; there is a significant relationship between impoverished Americans and their insured status.
+## Conclusion
 
-### Linear Regression in R
+This project investigated the relationship between poverty and health insurance and after conducting this experiment, it clarified the relationship; there is a significant relationship between impoverished households, unemployment rates, and per capita income and their insured status. The data and prior evidence suggest that economically disadvantaged Americans are less likely to be insured; however, the data used in this project only explore a part of the reality of the uninsured in the United States. To further investigate this relationship, I recommend taking a more granular and methodical data collection approach by means of survey. The survey sample size ought to be sizable enough to faithfully represent the people within a region. I believe this approach would yield a more qualitative and representative picture of the relationship between poverty and insured status.  
+
+## Appendix A: Data Dictionary
+
+1. **Variable_name: state**
+* Variable_description: A list of 50 states in the United States. It does not include DC or territories.	
+* Data_source_org: Wikipedia
+* Data_source_URL: https://en.wikipedia.org/wiki/Health_insurance_coverage_in_the_United_States
+* Variable_measure_type: Nominal	
+* Data_type: This data is nominal, stored as text.
+
+2. **Variable_name: hc_uninsured_rate**
+* Variable_description: The rate of uninsured people, as reported by Wikipedia and derived from the US Census Bureau.
+* This variable measures the percentage of people without health insurance in 2014.	
+* Data_source_org: Wikipedia, US Census Bureau	
+* Data_source_URL: https://en.wikipedia.org/wiki/Health_insurance_coverage_in_the_United_States	
+* Variable_measure_type: Ratio	
+* Data_type: This data is a ratio, stored as a percent.
+
+3. **Variable_name: pov_house_income_thousands**
+* Variable_description: The amount of people in poverty by household income, measured in the thousands, as reported by Wikipedia and derived from the US Census Bureau. This variable measures the amount of people in poverty using the rate of poverty adjusted by household income in 2017.	
+* Data_source_org: Wikipedia, US Census Bureau	
+* Data_source_URL: https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_poverty_rate
+* Variable_measure_type: Interval	
+* Data_type: This data is an interval, stored as a number.
+
+4. **Variable_name: pov_rate**	
+* Variable_description: The rate of poverty in a given state, as reported by Wikipedia and derived from the US Census Bureau. This variable measures the percentage of a state's population that is in poverty in 2017.	
+* Data_source_org: Wikipedia, US Census Bureau	
+* Data_source_URL: https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_poverty_rate
+* Variable_measure_type: Ratio	
+* Data_type: This data is a ratio, stored as a percent.
+
+5. **Variable_name: unemployment_rate**	
+* Variable_description: The rate of unemployment in a given states, as reported by Wikipedia and derived from the Bureau of Labor Statistics.This variable measures the rate at which people are lack gainful employed in 2018. This is adjusted for seasonal work.	
+* Data_source_org: Wikipedia, Bureau of Labor Statistics	
+* Data_source_URL: https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_unemployment_rate
+* Variable_measure_type: Ratio	
+* Data_type: This data is a ratio, stored as a percent.
+
+6.  **Variable_name: income_per_capita**
+* Variable_description: The per capita household income, as reported by Wikipedia and derived from the US Census Bureau. 
+This variable measures the amount of money a household earns on average in 2015.	
+* Data_source_org: Wikipedia, US Census Bureau	
+* Data_source_URL: https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_income
+* Variable_measure_type: Interval	
+* Data_type: This data is an interval, stored as money.
+
+## Appendix B: Multiple Linear Regression in R
 
 ```r
 # Reads the hc_uninsured_dataset and runs a multiple linear regression
@@ -68,3 +117,30 @@ summary(uninsured_regression)
 confint(uninsured_regression, level = 0.95)
 plot(uninsured_regression)
 ```
+
+## Appendix C: Residuals and Coefficients
+
+Residuals:
+Min | 1Q | Median | 3Q | Max |
+------------ | ------------- | -------------  | ------------- | ------------- |
+-5.4749 | -2.0436| 0.3959 | 2.1212 | 5.2856 
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/uninsured/intercept.png" alt="coefficients">
+
+Residual standard error: 2.742 on 45 degrees of freedom
+Multiple R-squared:  0.4025,	Adjusted R-squared:  0.3494 
+F-statistic: 7.578 on 4 and 45 DF, 	p-value: 9.339e-05
+
+## Sources:
+
+1. CNBC. The Number of People with Health Insurance via Jobs Remained Steady with Obamacare. https://www.cnbc.com/2016/07/13/number-of-people-with-health-insurance-via-jobs-remained-steady-with-obamacare.html
+
+2. Harvard Gazette. New Study Finds 45,000 Deaths Annually Linked to Lack of Health Coverage. https://news.harvard.edu/gazette/story/2009/09/new-study-finds-45000-deaths-annually-linked-to-lack-of-health-coverage/
+
+3. KFF. Key Facts about the Uninsured Population. https://www.kff.org/uninsured/fact-sheet/key-facts-about-the-uninsured-population/
+
+4. U.S. Census. Who are the Uninsured. https://www.census.gov/newsroom/blogs/random-samplings/2017/09/who_are_the_uninsure.html
+
+## Data
+
+https://github.com/atAlexFM/uninsured-dataset/blob/master/hc_uninsured_dataset_xlsx.xlsx
