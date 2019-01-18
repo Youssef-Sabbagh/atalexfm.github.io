@@ -1,8 +1,8 @@
 ---
 layout: archive
-permalink: /data-science/
-title: "Data Science Posts"
-categories: [data science]
+permalink: /datascience/
+title: "Data Science Posts by Category"
+categories: [Data Science]
 author_profile: true
 header:
     image: "/images/lights.JPG"

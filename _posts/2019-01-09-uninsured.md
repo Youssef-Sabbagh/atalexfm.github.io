@@ -118,18 +118,15 @@ confint(uninsured_regression, level = 0.95)
 plot(uninsured_regression)
 ```
 
-## Appendix C: Residuals and Coefficients
-
-Residuals:
-Min | 1Q | Median | 3Q | Max |
------------- | ------------- | -------------  | ------------- | ------------- |
--5.4749 | -2.0436| 0.3959 | 2.1212 | 5.2856 
+## Appendix C: Residuals and Coefficients 
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/uninsured/intercept.png" alt="coefficients">
 
-Residual standard error: 2.742 on 45 degrees of freedom
-Multiple R-squared:  0.4025,	Adjusted R-squared:  0.3494 
-F-statistic: 7.578 on 4 and 45 DF, 	p-value: 9.339e-05
+**Residual standard error:** 2.742 on 45 degrees of freedom
+**Multiple R-squared:**  0.4025
+**Adjusted R-squared:**  0.3494 
+**F-statistic:** 7.578 on 4 and 45 DF
+**p-value:** 9.339e-05
 
 ## Sources:
 
