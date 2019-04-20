@@ -8,11 +8,9 @@ header:
 excerpt: "Is the world getting better or worse? This is the question that Steven Pinker, a professor and writer, addressed in a TED talk given in April 2018. Pinker's conclusion? A resounding yes, the world is indeed getting better. Given this question, I began my own investigation. Suffice to say, I am skeptical...often, especially of overtly optimistic claims." 
 ---
 
-## The Wealth of Nations: A Data Visualized Look at Life Expectancy and Daily Wages
+# A Data Visualized Look at Life Expectancy and Daily Wages
 
 Is the world getting better or worse? This is the question that Steven Pinker, a professor and writer, addressed in a TED talk given in April 2018. Pinker's conclusion? A resounding yes, the world is indeed getting better. Given this question, I began my own investigation. Suffice to say, I am skeptical...often, especially of overtly optimistic claims. 
-
-DISCLAIMER: My personal investigation into this question hardly scratches the surface of this question.
 
 ## Methodology 
 
@@ -315,7 +313,7 @@ plotyear(1965)
 ```
 
 
-![png](output_7_0.png)
+![png](/images/lifeexpect/output_7_0.png)
 
 
 
@@ -324,7 +322,7 @@ plotyear(1975)
 ```
 
 
-![png](output_8_0.png)
+![png](/images/lifeexpect/output_8_0.png)
 
 
 
@@ -333,7 +331,7 @@ plotyear(1985)
 ```
 
 
-![png](output_9_0.png)
+![png](/images/lifeexpect/output_9_0.png)
 
 
 
@@ -342,7 +340,7 @@ plotyear(1995)
 ```
 
 
-![png](output_10_0.png)
+![png](/images/lifeexpect/output_10_0.png)
 
 
 
@@ -351,7 +349,7 @@ plotyear(2005)
 ```
 
 
-![png](output_11_0.png)
+![png](/images/lifeexpect/output_11_0.png)
 
 
 
@@ -360,12 +358,11 @@ plotyear(2015)
 ```
 
 
-![png](output_12_0.png)
+![png](/images/lifeexpect/output_12_0.png)
 
 
 ## Sources:
 
 1. Gapminder. https://www.gapminder.org/data/
 
-2. TED. Steven Pinker: Is the World Getting Better or Worse? A Look at the Numbers. 
-https://www.ted.com/talks/steven_pinker_is_the_world_getting_better_or_worse_a_look_at_the_numbers?language=en#t-370688
+2. TED. Steven Pinker: Is the World Getting Better or Worse? A Look at the Numbers. https://www.ted.com/talks/steven_pinker_is_the_world_getting_better_or_worse_a_look_at_the_numbers?language=en#t-370688
