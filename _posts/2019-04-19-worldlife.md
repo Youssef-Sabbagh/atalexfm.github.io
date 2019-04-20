@@ -28,7 +28,7 @@ With the problems and pitfalls of my methodology addressed, let's move onto the 
 
 ## Getting Started
 
-This code is written in Python and ran in Jupyter Notebooks. To follow along, I will post the data set and Notebook session on my github: https://github.com/atalexfm
+This code is written in Python and ran in Jupyter Notebooks. To follow along, I will post the data set and Notebook session on my github: [Alex FM on GitHub)(https://github.com/atalexfm)
 
 ## Code
 
@@ -44,7 +44,6 @@ import matplotlib
 import matplotlib.pyplot as pp
 
 from IPython import display 
-from ipywidgets import interact, widgets
 
 %matplotlib inline
 ```
@@ -312,7 +311,6 @@ def plotyear(year):
 plotyear(1965) 
 ```
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/lifeexpect/output_7_0.jpg" alt="coefficients">
 ![png](/images/lifeexpect/output_7_0.jpg)
 
 
@@ -320,7 +318,6 @@ plotyear(1965)
 ```python
 plotyear(1975)
 ```
-
 
 ![png](/images/lifeexpect/output_8_0.jpg)
 
@@ -330,7 +327,6 @@ plotyear(1975)
 plotyear(1985)
 ```
 
-
 ![png](/images/lifeexpect/output_9_0.jpg)
 
 
@@ -338,7 +334,6 @@ plotyear(1985)
 ```python
 plotyear(1995)
 ```
-
 
 ![png](/images/lifeexpect/output_10_0.jpg)
 
@@ -348,7 +343,6 @@ plotyear(1995)
 plotyear(2005)
 ```
 
-
 ![png](/images/lifeexpect/output_11_0.jpg)
 
 
@@ -357,12 +351,11 @@ plotyear(2005)
 plotyear(2015)
 ```
 
-
 ![png](/images/lifeexpect/output_12_0.jpg)
 
 
 ## Sources:
 
-1. Gapminder. https://www.gapminder.org/data/
+1. Gapminder. [https://www.gapminder.org/data/](https://www.gapminder.org/data/)
 
-2. TED. Steven Pinker: Is the World Getting Better or Worse? A Look at the Numbers. https://www.ted.com/talks/steven_pinker_is_the_world_getting_better_or_worse_a_look_at_the_numbers?language=en#t-370688
+2. TED. Steven Pinker: Is the World Getting Better or Worse? A Look at the Numbers. [https://www.ted.com/talks/steven_pinker_is_the_world_getting_better_or_worse_a_look_at_the_numbers?language=en#t-370688](https://www.ted.com/talks/steven_pinker_is_the_world_getting_better_or_worse_a_look_at_the_numbers?language=en#t-370688)
