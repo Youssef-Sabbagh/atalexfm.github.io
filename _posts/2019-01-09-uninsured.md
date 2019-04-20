@@ -1,8 +1,8 @@
 ---
-title: "Uninsured Americans and Poverty"
+title: "The Relationship Between Poverty and Insurance Rates"
 date: 2019-01-09
-categories: [data science]
-tags: [economics, statistical analysis, multiple linear regression, project]
+categories: [data-science]
+tags: [economics, statistical-analysis, multiple-linear-regression, project]
 header:
     image: "/images/uninsured/uninsured_header.jpg"
 excerpt: "Data Science, Poverty, Uninsured Rates" 
