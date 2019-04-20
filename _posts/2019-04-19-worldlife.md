@@ -4,7 +4,7 @@ date: 2019-04-19
 categories: [data-science]
 tags: [data-visualization, data-exploration, python]
 header:
-    image: "/images/lifeexpect/LifeExpect.png"
+    image: "/images/lifeexpect/LifeExpect.jpg"
 excerpt: "Is the world getting better or worse? This is the question that Steven Pinker, a professor and writer, addressed in a TED talk given in April 2018. Pinker's conclusion? A resounding yes, the world is indeed getting better. Given this question, I began my own investigation. Suffice to say, I am skeptical...often, especially of overtly optimistic claims." 
 ---
 
@@ -312,8 +312,8 @@ def plotyear(year):
 plotyear(1965) 
 ```
 
-
-![png](/images/lifeexpect/output_7_0.png)
+<img src="{{ site.url }}{{ site.baseurl }}/images/lifeexpect/output_7_0.jpg" alt="coefficients">
+![png](/images/lifeexpect/output_7_0.jpg)
 
 
 
@@ -322,7 +322,7 @@ plotyear(1975)
 ```
 
 
-![png](/images/lifeexpect/output_8_0.png)
+![png](/images/lifeexpect/output_8_0.jpg)
 
 
 
@@ -331,7 +331,7 @@ plotyear(1985)
 ```
 
 
-![png](/images/lifeexpect/output_9_0.png)
+![png](/images/lifeexpect/output_9_0.jpg)
 
 
 
@@ -340,7 +340,7 @@ plotyear(1995)
 ```
 
 
-![png](/images/lifeexpect/output_10_0.png)
+![png](/images/lifeexpect/output_10_0.jpg)
 
 
 
@@ -349,7 +349,7 @@ plotyear(2005)
 ```
 
 
-![png](/images/lifeexpect/output_11_0.png)
+![png](/images/lifeexpect/output_11_0.jpg)
 
 
 
@@ -358,7 +358,7 @@ plotyear(2015)
 ```
 
 
-![png](/images/lifeexpect/output_12_0.png)
+![png](/images/lifeexpect/output_12_0.jpg)
 
 
 ## Sources:

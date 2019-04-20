@@ -5,7 +5,7 @@ categories: [data-science]
 tags: [economics, statistical-analysis, multiple-linear-regression, project]
 header:
     image: "/images/uninsured/uninsured_header.jpg"
-excerpt: "Data Science, Poverty, Uninsured Rates" 
+excerpt: "This report explores the relationship between health insurance and poverty in the United States, and particularly, if there is a relationship between being economially disadvantaged and being uninsured." 
 ---
 
 # Uninsured Americans and Poverty 
