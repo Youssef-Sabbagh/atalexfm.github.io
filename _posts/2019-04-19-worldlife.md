@@ -4,7 +4,7 @@ date: 2019-04-19
 categories: [data-science]
 tags: [data-visualization, data-exploration, python]
 header:
-    image: "/images/lifeexpect/LifeExpect.jpg"
+    image: "/images/lifeexpect/1_LifeExpect.jpg"
 excerpt: "Is the world getting better or worse? This is the question that Steven Pinker, a professor and writer, addressed in a TED talk given in April 2018. Pinker's conclusion? A resounding yes, the world is indeed getting better. Given this question, I began my own investigation. Suffice to say, I am skeptical...often, especially of overtly optimistic claims." 
 ---
 
